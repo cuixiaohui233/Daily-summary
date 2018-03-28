@@ -124,3 +124,9 @@ js 里面强制使用 === ,这个时候就会有些漏网之鱼，凭着自己�
 先定个小目标，这周把 try catch、promise、async函数再好好看看，react-router的东西明天应该能用到，在复习一下,嗯。
 
 接下来也要加油，背单词，看阅读，更github总结!
+
+今日总结:
+关于react-router的写法，可以声明一个数组，然后里面是应用的 route 信息，然后 map 这个数组，生成 Route,注意 Router 里面只能有一个 child
+，写多个 Route 可以用 div 包一下，还有 Router 要在，react-router 中引入，但是 Link,Route等组件要在 react-router-dom 中引用。
+
+还有react-router的 history，需要使用 createBrowserHistory 来创建。
