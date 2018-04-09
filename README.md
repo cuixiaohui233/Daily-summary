@@ -130,3 +130,39 @@ js 里面强制使用 === ,这个时候就会有些漏网之鱼，凭着自己�
 ，写多个 Route 可以用 div 包一下，还有 Router 要在，react-router 中引入，但是 Link,Route等组件要在 react-router-dom 中引用。
 
 还有react-router的 history，需要使用 createBrowserHistory 来创建。
+
+关于react-router:
+
+    switch组件必须紧跟着route才可以发挥作用
+
+    switch会匹配到第一个符合路由的组件
+
+    withRouter
+
+关于package.json：
+
+   1. package.json 里面的dependencies和devDependencies的区别
+
+   在前端工程中，安装插件或库：
+
+   添加 package到： dependencies
+
+    npm install <package-name> --save 或 npm install <package-name>
+
+    添加 package到： devDependencies
+
+    npm install <package-name> --save-dev
+    区别在于：
+    dependencies中的依赖项是正常运行该包所需要的依赖项；
+    devDependencies中的依赖项是开发的时候所需要的依赖项，比如一些进行单元测试之类的包；
+    dependencies中，是生产环境所需要的库；
+    devDependencies中，放的是你开发时候用到的库，比如测试库等等，在生产环境中是不需要的；
+2 .^ 和 ~ 的区别
+    指定版本：比如1.2.2，遵循“大版本.次要版本.小版本”的格式规定，安装时只安装指定版本。
+    波浪号（tilde）+指定版本：比如~1.2.2，表示安装1.2.x的最新版本（不低于1.2.2），但是不安装1.3.x，也就是说安装时不改变大版本号和次要版本号。
+    插入号（caret）+指定版本：比如ˆ1.2.2，表示安装1.x.x的最新版本（不低于1.2.2），但是不安装2.x.x，也就是说安装时不改变大版本号。需要注意的是，如果大版本号为0，则插入号的行为与波浪号相同，这是因为此时处于开发阶段，即使是次要版本号变动，也可能带来程序的不兼容。
+    latest：安装最新版本。
+关于变量命名：
+    从this.props中取出来的东西需要用const生命；
+    变量命名尽量语义化；
+    一些常量可以放到config中；
