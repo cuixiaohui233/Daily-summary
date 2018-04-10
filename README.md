@@ -32,7 +32,32 @@ git congif --global -e 添加简写配置：
 
 在我们切换分支和新建分支的时候，.git 中的 HEAD 起到了很大的作用，在我们切换分支的时候，HEAD 的指针会指向当前分支，然后对应的是当前分支的最洗一次提交的版本号码;
 
-不行了，困......
+Git diff:
+
+1.比较工作区与暂存区
+
+    git diff 不加参数默认比较工作区与暂存区
+
+2.比较暂存区与最新本地版本库
+
+    git diff —cached
+
+3.比较工作区与最新本地版本库
+
+    git diff HEAD 如果HEAD指向的是master分支，那么HEAD还可以切换成master
+
+4 比较工作区与指定commit-id的差异
+
+　git diff commit-id  [<path>...] 
+        
+5 比较暂存区与指定commit-id的差异
+
+　git diff --cached [<commit-id>] [<path>...] 
+ 
+6 比较两个commit-id之间的差异
+
+　git diff [<commit-id>] [<commit-id>]
+ 
 
 今日工作总结:<br />
 关于redux:
