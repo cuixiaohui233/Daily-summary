@@ -46,17 +46,17 @@ Git diff:
 
     git diff HEAD 如果HEAD指向的是master分支，那么HEAD还可以切换成master
 
-4 比较工作区与指定commit-id的差异
+4. 比较工作区与指定commit-id的差异
 
 　git diff commit-id  [<path>...] 
         
-5 比较暂存区与指定commit-id的差异
+5.比较暂存区与指定commit-id的差异
 
-　git diff --cached [<commit-id>] [<path>...] 
+　`git diff --cached [<commit-id>] [<path>...] `
  
-6 比较两个commit-id之间的差异
+6. 比较两个commit-id之间的差异
 
-　git diff [<commit-id>] [<commit-id>]
+　`git diff [<commit-id>] [<commit-id>]`
  
 
 今日工作总结:<br />
