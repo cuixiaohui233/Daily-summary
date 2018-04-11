@@ -199,4 +199,20 @@ js 里面强制使用 === ,这个时候就会有些漏网之鱼，凭着自己�
     变量命名尽量语义化；
     
     一些常量可以放到config中；
+
+用link标签实现shortcut icon
+
+
+1、<link rel="shortcut icon " type="images/x-icon" href="./favicon.ico”>
+
+
+其中favicon.ico需放在根目录下面（不提倡用这种方法，因为图片没有授权，违反了W3C标准，）
+
+
+2、<link rel="shortcut icon " type="images/x-icon" href="http://www.jd.com/favicon.ico">
+
+
+这里的favicon必须是16*16或者32*32的，必须是8位色或者24位色的，格式必须是png或者ico或者gif。
+
+16*16/32*32 且 8位或24位色 且 png/ico/gif。
     
