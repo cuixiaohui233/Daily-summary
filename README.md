@@ -234,4 +234,6 @@ this.setState({
 
 我是这一周简直太糟糕了，明天过后就回归正常生活吧分界线。
 
-    
+阻止浏览器长按图片弹出保存图片，css 方法：
+
+pointer-events: none; 
