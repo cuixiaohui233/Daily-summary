@@ -252,6 +252,6 @@ ClassNames 库：
                         })}>{LeaseCheckStatus[item.checkstatus]}
                  </span>
                  
-(更多教程)[https://www.jianshu.com/p/8cb409327f01]
+(更多教程)[https://www.jianshu.com/p/8cb409327f01] 
 
 
