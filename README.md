@@ -237,3 +237,21 @@ this.setState({
 阻止浏览器长按图片弹出保存图片，css 方法：
 
 pointer-events: none; 
+
+ClassNames 库：
+
+通过 npm install classnames 安装
+
+作用：使 react 的 className 可以为多个经过判断的值
+
+使用方法：
+                <span
+                        className={ClassNames({
+                            'red': item.checkstatus == 'LEASE_CHECK_DISALLOW',
+                            'green': item.checkstatus == 'LEASE_CHECK_REVIEWED'
+                        })}>{LeaseCheckStatus[item.checkstatus]}
+                 </span>
+                 
+(更多教程)[https://www.jianshu.com/p/8cb409327f01]
+
+
