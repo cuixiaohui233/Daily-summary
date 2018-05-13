@@ -288,3 +288,21 @@ GC是垃圾收集的意思，内存处理是编程人员容易出现问题的地
 使用时候申请(getPooled)和释放(release)成对出现，使用一个对象后一定要释放还给池子(释放时候要对内部变量置空方便下次使用)
 
 [相关链接](https://zhuanlan.zhihu.com/p/28697362)
+
+关于reduce:
+
+reduce 接受一个函数作为累加器，数据里的每一项从左到右开始缩减，最终计算为一个值。
+
+作为一个高阶函数用作react-redux 的 compose,
+
+对于空数组是不会执行函数的
+
+语法：
+
+数组.reducer(function(totle, currentVal, currentIndex, arr), initialValue)
+
+参数：
+
+|参数|描述|
+|----|----|
+|function(totle, currentVal, currentIndex, arr)|必须值，执行整个数组的函数。|参数|描述||
