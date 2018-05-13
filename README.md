@@ -305,4 +305,4 @@ reduce 接受一个函数作为累加器，数据里的每一项从左到右开�
 
 |参数|描述|
 |----|----|
-|function(totle, currentVal, currentIndex, arr)|必须值，执行整个数组的函数。|参数|描述||
+|function(totle, currentVal, currentIndex, arr)|必须值，执行整个数组的函数。|参数|描述||----|----||total|必须。初始值，或者计算过后的返回值||
