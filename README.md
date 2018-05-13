@@ -305,4 +305,18 @@ reduce 接受一个函数作为累加器，数据里的每一项从左到右开�
 
 |参数|描述|
 |----|----|
-|function(totle, currentVal, currentIndex, arr)|必须值，执行整个数组的函数。total：必须。初始值，或者计算过后的返回值 /br currentVal: 必须，当前元素 /br currentIndex: 可选，当前元素的索引 /br arr: 可选，当前元素所属的数组对象|
+|function(totle, currentVal, currentIndex, arr)|必须值，执行整个数组的函数。total：必须。初始值，或者计算过后的返回值  currentVal: 必须，当前元素 currentIndex: 可选，当前元素的索引 arr: 可选，当前元素所属的数组对象|
+|initalValue|可选，传递给函数的初始值|
+
+小栗子：
+
+                var numbers = [15.5, 2.3, 1.1, 4.7];
+ 
+                function getSum(total, num) {
+                    return total + Math.round(num);
+                }
+                function myFunction(item) {
+                    document.getElementById("demo").innerHTML = numbers.reduce(getSum, 0);
+                }
+
+(更多栗子)[https://github.com/zyh9/Small-example/blob/master/reduce%E5%B0%8F%E4%BE%8B%E5%AD%90.html] (给颗小星星
