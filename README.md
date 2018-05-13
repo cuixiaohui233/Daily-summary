@@ -317,6 +317,6 @@ reduce 接受一个函数作为累加器，数据里的每一项从左到右开�
                 }
                 function myFunction(item) {
                     document.getElementById("demo").innerHTML = numbers.reduce(getSum, 0);
-                }
+                }
 
-(更多栗子)[https://github.com/zyh9/Small-example/blob/master/reduce%E5%B0%8F%E4%BE%8B%E5%AD%90.html] (给颗小星星
+[更多栗子](https://github.com/zyh9/Small-example/blob/master/reduce%E5%B0%8F%E4%BE%8B%E5%AD%90.html)   (给颗小星星
