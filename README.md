@@ -289,7 +289,7 @@ GC是垃圾收集的意思，内存处理是编程人员容易出现问题的地
 
 [相关链接](https://zhuanlan.zhihu.com/p/28697362)
 
-关于reduce:
+## 关于reduce:
 
 reduce 接受一个函数作为累加器，数据里的每一项从左到右开始缩减，最终计算为一个值。
 
@@ -324,3 +324,32 @@ reduceRight 也是同理，区别在于是从后往前计算
 [更多栗子](https://www.w3cplus.com/javascript/array-part-8.html)
 
 [更多栗子](https://github.com/zyh9/Small-example/blob/master/reduce%E5%B0%8F%E4%BE%8B%E5%AD%90.html)   (给颗小星星
+
+## 利用css变量实现按钮的小效果
+
+暂停动画：鼠标移动到按钮上光标会显示彩色渐变
+
+原理：
+
+追踪位置,获取鼠标的位置：
+
+1.选择元素，等待，直到用户将鼠标移过它；
+
+2.计算相对于元素的位置；
+
+3.将坐标存在css变量中。
+
+动画渐变：
+
+原理：
+
+css变量：
+
+1.用span包裹文本，以避免显示在按钮上方；
+
+2.将width和height初始化为0px,当用户划过（悬停）按钮上时，将其改为400px。不要忘了设置这种旋转以使其像风一样瞬间出现；
+
+3.利用鼠标追踪鼠标位置；
+
+.在background属性上应用radial-
+原理：
