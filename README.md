@@ -351,5 +351,4 @@ css变量：
 
 3.利用鼠标追踪鼠标位置；
 
-.在background属性上应用radial-
-原理：
+4.在background属性上应用radial- gradient，使用closest-side circle。closest-side能覆盖整个页面。
