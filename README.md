@@ -352,3 +352,14 @@ css变量：
 3.利用鼠标追踪鼠标位置；
 
 4.在background属性上应用radial- gradient，使用closest-side circle。closest-side能覆盖整个页面。
+
+## 关于react-router的问题
+
+问题描述：点击按钮跳转后，滑动到底部，回到上一个页面，也随着滑动到底部。
+
+问题原因：React Router 不维护 scroll position
+
+解决办法：
+1.使用react-router-scrool
+
+2.在 onUpdate 时，调用window.scroolTo,(之前用到过这个，谷歌浏览器可能有点问题，很奇怪，可以用定时器 setTimeout 包一下。
