@@ -367,6 +367,6 @@ css变量：
 
 解决办法：
 
-1.使用react-router-scrool
+1.使用[react-router-scrool](https://github.com/taion/react-router-scroll)
 
 2.在 onUpdate 时，调用window.scroolTo,(之前用到过这个，谷歌浏览器可能有点问题，很奇怪，可以用定时器 setTimeout 包一下。
