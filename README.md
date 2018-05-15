@@ -234,11 +234,11 @@ this.setState({
 
 我是这一周简直太糟糕了，明天过后就回归正常生活吧分界线。
 
-阻止浏览器长按图片弹出保存图片，css 方法：
+## 阻止浏览器长按图片弹出保存图片，css 方法：
 
 pointer-events: none; 
 
-ClassNames 库：
+## ClassNames 库：
 
 通过 npm install classnames 安装
 
@@ -277,7 +277,7 @@ GC是垃圾收集的意思，内存处理是编程人员容易出现问题的地
 
 [相关链接](https://blog.csdn.net/hustwht/article/details/52109343)
 
-### react 中关于对象池
+## react 中关于对象池
 
 开辟空间是需要一定代价的
 
