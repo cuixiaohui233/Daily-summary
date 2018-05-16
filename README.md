@@ -386,10 +386,10 @@ css变量：
 
 
                 var obj2 = Object.create({}, { getFoo : { value : function () { return this.foo } } });
-                
+
                 obj2.foo = 1;
-                
-                console.log(Object.keys(obj2)); // console: ["foo"]
+
+                console.log(Object.keys(obj2)); // console: ["foo"]
                 
 传入字符串，返回索引：
                 
