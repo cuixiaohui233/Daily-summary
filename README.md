@@ -386,6 +386,7 @@ css变量：
                 console.log(Object.keys(obj2)); // console: ["foo"]
                 
 传入字符串，返回索引：
+
                 var str = 'ab1234';
 
 数组 返回索引
