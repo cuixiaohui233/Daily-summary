@@ -370,3 +370,35 @@ css变量：
 1.使用[react-router-scrool](https://github.com/taion/react-router-scroll)
 
 2.在 onUpdate 时，调用window.scroolTo,(之前用到过这个，谷歌浏览器可能有点问题，很奇怪，可以用定时器 setTimeout 包一下。
+
+## 关于该死的Object.keys()
+
+传入对象，返回属性值：
+
+                let arr =  {name: '崔晓慧', age: '23',sex: '女'}
+
+                console.log(Object.keys(arr));// ['name', 'age', 'sex']
+                
+                
+                var obj1 = { 100: "a", 2: "b", 7: "c"};
+                
+                console.log(Object.keys(obj1)); // console: ["2", "7", "100"]
+
+
+                var obj2 = Object.create({}, { getFoo : { value : function () { return this.foo } } });
+                
+                obj2.foo = 1;
+                
+                console.log(Object.keys(obj2)); // console: ["foo"]
+                
+传入字符串，返回索引：
+                
+                var str = 'ab1234';
+
+数组 返回索引
+
+                var arr = ["a", "b", "c"];
+                
+                console.log(Object.keys(arr)); // console: ["0", "1", "2"]
+                
+                console.log(Object.keys(obj));  //[0,1,2,3,4,5]
