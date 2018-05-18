@@ -394,3 +394,23 @@ css变量：
                 var arr = ["a", "b", "c"];
                 console.log(Object.keys(arr)); // console: ["0", "1", "2"]
                 console.log(Object.keys(obj));  //[0,1,2,3,4,5]
+
+这种
+                
+                isHavePermission
+                ? (client_type_value ? clientType.find(e => e.value == client_type_value).label : '')
+                : <Select
+                        value={client_type_value ? client_type_value : "点击选择"}
+                        ref="clientTypeSelect"
+                        onChange={this.clientTypeChange}
+                        style={{
+                        width: 150,
+                        color:`${ client_type_value ? '#595959' : '#908c8c'} `,
+                        fontSize: 15
+                        }}
+                        >
+                        {cClientTypeOption}
+                   </Select>
+
+嵌套三目运算简直恶心死，又要被老大骂了...我能怎么办，我也很绝望啊 
+                     
