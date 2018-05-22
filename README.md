@@ -311,13 +311,13 @@ reduce 接受一个函数作为累加器，数据里的每一项从左到右开�
 小栗子：
 
                 var numbers = [15.5, 2.3, 1.1, 4.7];
- 
+
                 function getSum(total, num) {
-                    return total + Math.round(num);
+                        return total + Math.round(num);
                 }
                 function myFunction(item) {
-                    document.getElementById("demo").innerHTML = numbers.reduce(getSum, 0);
-                }
+                        document.getElementById("demo").innerHTML = numbers.reduce(getSum, 0);
+                }
 
 reduceRight 也是同理，区别在于是从后往前计算
 
