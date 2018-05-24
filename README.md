@@ -31,7 +31,7 @@
                 //                  别人笑我忒疯癫，我笑自己命太贱；
                 //                  不见满街漂亮妹，哪个归得程序员？
 
-# git checkout 命令详解
+### git checkout 命令详解
 git congif --global -e 添加简写配置：
 
         [alias]
@@ -53,7 +53,7 @@ git congif --global -e 添加简写配置：
             type = cat-file -t
             dump = cat-file -p
 
-## 创建分支，切换分支也可以成为检出分支
+### 创建分支，切换分支也可以成为检出分支
 
 创建新的分支：git branch dev
 
@@ -61,7 +61,7 @@ git congif --global -e 添加简写配置：
 
 简写：git checkout -b dev
 
-## 关于 --HEAD
+### 关于 --HEAD
 
 在我们切换分支和新建分支的时候，.git 中的 HEAD 起到了很大的作用，在我们切换分支的时候，HEAD 的指针会指向当前分支，然后对应的是当前分支的最洗一次提交的版本号码;
 
