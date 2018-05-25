@@ -470,3 +470,37 @@ css变量：
 ### MongoDB
 
 ### HTTP协议
+
+### 关于获取、下载二维码：
+
+HTML部分：
+  
+    <div>
+      <Button
+        type="primary"
+        onClick={(e)=> this.getQRcode(item.lease_id, item.end_date)}>
+        {item.zorders.length != 0 && item.zorders[0].status == "ZORDER_STATUS_RETURN" ? "重新获取" : "获取二维码"}
+      </Button>
+      <a 
+        ref={"down_" + item.lease_id} 
+        className="svgDownload"
+        download={"QRcode_" + item.lease_id}
+      >
+        <svg 
+          ref={"svg_" + item.lease_id} 
+          version="1.1"
+          viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"
+        >
+          <path ref={"path_" + item.lease_id}/>
+        </svg>
+      </a>
+    </div> 
+
+点击按钮获取二维码，点击二维码下载图片
+
+js 部分：
+
+    就是请求接口然后设置 svg 的属性
+    
+### 关于 svg 标签，以及用到的 a 标签的 download 属性
+
