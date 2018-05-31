@@ -1,3 +1,19 @@
+### node 写简单爬虫，node 是真的皮...
+
+>用到的包
+
+    express Node 的框架
+    
+    superagent Node 中非常方便的请求代理模块，相当于ajax
+    
+    cheerio Node 中的 jQuery，实现了 jQuery 的核心功能
+    
+    url Node 中用于解析和处理 URL 字符串
+    
+    async Node 中的流程控制，处理异步编程
+ 
+> 核心代码
+    
 ### 网站渗透
 
 >关于网络安全的一个emmm...就是还有一种 web安全湿的职业...貌似是个神秘的组织 kkk
@@ -12,7 +28,7 @@
 
 >教程
 
-[反正我会了-搜易贼](https://www.jianshu.com/p/7a88617ce80b) 建议右击打开新连接
+[教程](https://www.jianshu.com/p/7a88617ce80b) 建议右击打开新连接
 
 >益处
 
