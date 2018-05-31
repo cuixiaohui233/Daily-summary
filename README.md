@@ -1,4 +1,14 @@
-# 皮这一下很开心
+### 网站/手机APP抓包工具---charles 
+
+>安装
+
+[直接下载最新版](https://www.charlesproxy.com/download/)
+
+>教程
+
+[反正我会了-搜易贼]（https://www.jianshu.com/p/7a88617ce80b）
+
+### 皮这一下很开心
 
     //                            _ooOoo_
     //                           o8888888o
@@ -30,10 +40,6 @@
     //                  奔驰宝马贵者趣，公交自行程序员。
     //                  别人笑我忒疯癫，我笑自己命太贱；
     //                  不见满街漂亮妹，哪个归得程序员？
-
-### 网站/手机APP抓包工具---charles 
-
->安装
 
 ### git checkout 命令详解
 git congif --global -e 添加简写配置：
