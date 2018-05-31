@@ -2,18 +2,29 @@
 
 >用到的包
 
-    express Node 的框架
+    express: Node 的框架
     
-    superagent Node 中非常方便的请求代理模块，相当于ajax
+    superagent: Node 中非常方便的请求代理模块，相当于ajax
     
-    cheerio Node 中的 jQuery，实现了 jQuery 的核心功能
+    cheerio: Node 中的 jQuery，实现了 jQuery 的核心功能
     
-    url Node 中用于解析和处理 URL 字符串
+    url: Node 中用于解析和处理 URL 字符串
     
-    async Node 中的流程控制，处理异步编程
+    async: Node 中的流程控制，处理异步编程
  
 > 核心代码
     
+### adb 调试 Android 的命令行工具---程序员的手机小精灵
+
+>文档
+
+https://blog.csdn.net/geanwen/article/details/80505178
+
+https://www.jianshu.com/p/56fd03f1aaae
+
+>问题
+
+如果要循环模仿一个用户的事件，不会运行脚本
 ### 网站渗透
 
 >关于网络安全的一个emmm...就是还有一种 web安全湿的职业...貌似是个神秘的组织 kkk
