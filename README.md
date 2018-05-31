@@ -8,11 +8,11 @@
 
 >安装
 
-[直接下载最新版](https://www.charlesproxy.com/download/)
+[直接下载最新版](https://www.charlesproxy.com/download/) 建议右击打开新连接
 
 >教程
 
-[反正我会了-搜易贼](https://www.jianshu.com/p/7a88617ce80b)
+[反正我会了-搜易贼](https://www.jianshu.com/p/7a88617ce80b) 建议右击打开新连接
 
 >益处
 
