@@ -1,3 +1,7 @@
+### wb3命令
+
+web3.eth.getBalance() 获取用户余额
+
 ### geth命令
 
 command:
