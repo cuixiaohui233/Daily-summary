@@ -1,3 +1,24 @@
+### geth命令
+
+command:
+    
+    list    列表显示现有账户
+    new     创建一个新的账户
+    update  修改账户
+    import  导入私钥创建新账户
+
+创建新用户
+    
+    geth account new 
+    
+显示已有账户
+
+    geth account list
+    
+导入私钥创建新账户
+
+geth account import --datadir 私钥的存在地址
+
 ### mac小命令
 
 Command+Shift+. 可以显示隐藏文件、文件夹，再按一次，恢复隐藏；
