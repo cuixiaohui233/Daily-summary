@@ -4,6 +4,36 @@ web3.eth.getBalance() 获取用户余额
 
 ### geth命令
 
+启动 geth:
+
+`geth --datadir "./" --nodiscover console 2>>geth.log` 进入命令行
+
+    eth：包含一些跟操作区块链相关的方法；
+    net：包含一些查看p2p网络状态的方法；
+    admin：包含一些与管理节点相关的方法；
+    miner：包含启动&停止挖矿的一些方法；
+    personal：主要包含一些管理账户的方法；
+    txpool：包含一些查看交易内存池的方法；
+    web3：包含了以上对象，还包含一些单位换算的方法。
+    
+console 下创建账户
+
+    personal.newAccount('密码')
+
+查看账户
+
+    personal.listAccounts
+    
+查看账户余额
+
+    eth.getBalance()
+    
+    返回值的单位是wei，wei是以太币的最小单位，1个以太币=10的18次方个wei。要查看有多少个以太币，可以用web3.fromWei()将返回值换算成以太币。
+
+启动挖矿
+    
+    miner.start()
+    
 command:
     
     list    列表显示现有账户
