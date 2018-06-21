@@ -1,3 +1,9 @@
+### mac小命令
+
+Command+Shift+. 可以显示隐藏文件、文件夹，再按一次，恢复隐藏；
+
+finder下使用Command+Shift+G 可以前往任何文件夹，包括隐藏文件夹。
+
 ### node 读写 Exsel 表格
 
 >安装 
