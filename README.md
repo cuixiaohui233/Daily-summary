@@ -1,3 +1,20 @@
+### Git 的报错
+
+1.SSL certificate problem: Invalid certificate chain ：
+
+    git config --global http.sslVerify false 解决
+
+2.The requested URL returned error: 403 ：
+
+    mac 下直接: vim .git/config 然后：
+    
+    修改
+
+    [remote "origin"]
+        url = https://github.com/wangz/example.git
+    为：
+    [remote "origin"]
+        url = https://wangz@github.com/wangz/example.git
 ### 写程序不仅要写代码，还要整处理错误的机制和代码运行日志
 
 #### node 接口的日志模块 --- log4js
