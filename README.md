@@ -1,3 +1,9 @@
+### node 写接口，连接数据
+
+orm 模块：
+
+周末搞得数据库试试。
+
 ### Git 的报错
 
 1.SSL certificate problem: Invalid certificate chain ：
