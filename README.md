@@ -20,7 +20,7 @@ orm 模块：
         url = https://github.com/wangz/example.git
     为：
     [remote "origin"]
-        url = https://wangz@github.com/wangz/example.git
+        url = https://your name@github.com/wangz/example.git
 ### 写程序不仅要写代码，还要整处理错误的机制和代码运行日志
 
 #### node 接口的日志模块 --- log4js
