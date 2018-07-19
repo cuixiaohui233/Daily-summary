@@ -1,15 +1,18 @@
 ### 基于第一个小全栈之总结
 
 1.复制粘贴真的会死人。
+
 2.总体结构设计！这个真的重要
-3.变量的名字给我搞昏了要，词穷啊!不对，英文单词穷啊！
-4.
+
+3.变量的名字给我搞昏了要，词穷啊!不对，英文单词穷！
+
+4.做好日志管理和报错报警机制
 ### node 写接口，连接数据
 
 orm 模块：
-也许感觉到吃力的时候，就是我进步的时候。
 
     orm.connect : 连接到数据库
+    
     db.define: 定义表结构
         var Person = db.define('person', {
           id:      {type: 'serial', key: true}, // 自增主键
@@ -23,11 +26,18 @@ orm 模块：
             }
           }
         });
+        
     Person.create: 创建 and 更新表
+    
     Person.find({条件：键值对}, function): 查找表
+    
     Person.all(function): 查找所有内容
+    
     Person.find({}, 限制, function): 限制查找内容
+    
     db.sync: 创建所有需要的表，但是不会替换表，只会生成没有创建过的表
+    
+    db.find({条件}, function(){})
 
 
 周末搞得数据库试试。
