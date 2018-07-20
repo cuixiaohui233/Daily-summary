@@ -37,7 +37,20 @@ orm 模块：
     
     db.sync: 创建所有需要的表，但是不会替换表，只会生成没有创建过的表
     
-    db.find({条件}, function(){})
+    Person.find({条件}, function()
+        Person.remove({条件}, function() {
+            // 删除一条数据
+        })
+    })
+    
+    Person.find({查找条件}, function(err, person) {
+        person[0].XXX = XXX;
+        person[0].yyy = yyy;
+        
+        person.save(function(){
+            // 更新数据
+        })
+    })
 
 
 周末搞得数据库试试。
