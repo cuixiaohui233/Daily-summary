@@ -1,3 +1,16 @@
+### 关于 git log
+
+git log : 查看相关提交的版本号
+
+git log -p filename : 显示每次提交的 diff
+
+git show commit-id filename : 只看某次提交的某个文件的变化
+
+git show -s --pretty=row commit-id : 根据 commit-id 查看某次提交
+
+git log --stat 显示每次提交的文件统计信息
+
+git log --shortstat 只显示最后的修改添加移除统计
 ### 基于第一个小全栈之总结
 
 1.复制粘贴真的会死人。
