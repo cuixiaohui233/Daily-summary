@@ -24,6 +24,19 @@ git log --graph 显示 ASCII 图形表示的分之合并信息
 
 git log --pretty 使用其他格式显示历史提交信息，可用的选项包括 oneline，short，full，fuller 和 format（后跟指定格式）。
 
+git log -(n) n 是数据，意为仅显示最近 n 条信息
+
+git log --since,--after 仅显示指定时间之后的提交
+
+git log --until,--before 仅显示指定时间之前的提交
+
+git log --author 仅显示指定作者相关的提交
+
+git log committer 仅显示指定提交者相关的提交
+
+git log --grep 仅显示含指定关键字的提交
+
+git log -S 仅显示添加或者移除了某个关键字的提交
 ### 基于第一个小全栈之总结
 
 1.复制粘贴真的会死人。
