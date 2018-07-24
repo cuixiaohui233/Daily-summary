@@ -11,6 +11,19 @@ git show -s --pretty=row commit-id : 根据 commit-id 查看某次提交
 git log --stat 显示每次提交的文件统计信息
 
 git log --shortstat 只显示最后的修改添加移除统计
+
+git log --name-only 显示提交之后已修改的文件清单
+
+git log --name-status 显示新增、修改、删除的文件清单
+
+git log --abbrev-commit 仅显示 SHA-1 的前几个字符，而不是所有的40个字符
+
+git log --relative-date 使用较短的相对时间显示，例如 2 weeks ago
+
+git log --graph 显示 ASCII 图形表示的分之合并信息
+
+git log --pretty 使用其他格式显示历史提交信息，可用的选项包括 oneline，short，full，fuller 和 format（后跟指定格式）。
+
 ### 基于第一个小全栈之总结
 
 1.复制粘贴真的会死人。
