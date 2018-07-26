@@ -1,3 +1,13 @@
+### 关于 git clone 
+
+有时候克隆的文件太大，网速再差点事儿，我这小暴脾气...
+
+所以，谷歌了个办法，就是先 clone 最近一次 commit 的代码，然后在下载全部：
+
+git clone '地址' --depth 1
+
+git pull --unshallow
+
 ### 关于 git log
 
 git log : 查看相关提交的版本号
