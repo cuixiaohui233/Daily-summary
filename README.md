@@ -1,3 +1,11 @@
+### git 在一个分支上提交了多个commit，如何合并这些commit到一个新的干净的分支
+首先切换到新的分支 git checkout -b '分支1'
+
+然后 pull 那个多个commit的分支 git pull origin 多个commit的分支名
+
+然后 切换到一个新的分支 git checkout -b '分支2'
+
+然后在此基础上合并多个commit git merge --squash '分支1'
 ### 关于 git clone 
 
 有时候克隆的文件太大，网速再差点事儿，我这小暴脾气...
