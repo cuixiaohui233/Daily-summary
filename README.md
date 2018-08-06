@@ -1,3 +1,6 @@
+### sentry 报警机制
+我擦不会搞
+
 ### git 在一个分支上提交了多个commit，如何合并这些commit到一个新的干净的分支
 首先切换到新的分支 git checkout -b '分支1'
 
