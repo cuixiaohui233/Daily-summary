@@ -1,5 +1,35 @@
+### pm2 进程管理
+安装：npm install -g pm2
+配置文件：
+    pm2.json:
+    
+      {
+      "apps": [{
+        "name": "chcs",// 进程的名字，相当于 pm2 start xxx.js --[name]
+        "script": "production.js",// 要运行的程序的文件
+        "cwd": "./",// 要运行的程序的路径
+        "exec_mode": "fork",
+        "max_memory_restart": "1G",
+        "autorestart": true,
+        "out_file": "./logs/pm2/app-out.log",
+        "error_file": "./logs/pm2/app-err.log",
+        "log_date_format": "YYYY-MM-DD HH:mm:ss.SSS",
+        "node_args": [],
+        "args": [],
+        "env": {
+          "NODE_ENV": "development"
+        },
+        "env_dev": {
+          "NODE_ENV": "development"
+        },
+        "env_pro": {
+          "NODE_ENV": "production"
+        }
+      }]
+    }
+
 ### sentry 报警机制
-我擦不会搞
+我擦不会搞,还懒...
 
 ### git 在一个分支上提交了多个commit，如何合并这些commit到一个新的干净的分支
 首先切换到新的分支 git checkout -b '分支1'
