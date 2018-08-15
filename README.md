@@ -1,4 +1,9 @@
-### fab --- 一个执行 python 脚本的工具
+### fab --- python 自动化运维工具（可执行 Python 脚本）
+
+安装：
+pip install fabric
+ 
+然后编写一个简单的 .py 文件
 
 fab 服务器的名字 要执行的方法
 
