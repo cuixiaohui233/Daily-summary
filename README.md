@@ -27,6 +27,12 @@
         }
       }]
     }
+    
+运行文件：pm2 start pm2.json -env pro
+
+结束进程：pm2 status 查看进程状态
+
+pm2 stop 进程名 关闭进程
 
 ### sentry 报警机制
 我擦不会搞,还懒...
