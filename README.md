@@ -1,3 +1,7 @@
+### 查询是哪个网页跳到当前网页的 --- referrer
+
+通过 document.referrer 来获取网页跳转源，但在react 的 react-router 中好像不适用，因为亲测获取不到。
+
 ### 《数据库原理》
 
 #### 关系型数据库
