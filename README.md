@@ -1,3 +1,15 @@
+### node 的orm 工具 --- orm2
+
+定义数据类型
+
+string VERCHAR
+
+number FLOAT
+
+integer INT
+
+serial  自增主键
+
 ### 在 node 中通过 js 对象来映射数据库的sql语句以达到增删改查的功能的 orm 工具 --- Sequelize
 
 [详情文档请见](https://github.com/sequelize/sequelize)
