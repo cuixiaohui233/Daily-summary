@@ -1,3 +1,9 @@
+### 在 node 中通过 js 对象来映射数据库的sql语句以达到增删改查的功能的 orm 工具 --- Sequelize
+
+[详情文档请见](https://github.com/sequelize/sequelize)
+
+但是我整了半天也连不上，气死我了
+
 ### 查询是哪个网页跳到当前网页的 --- referrer
 
 通过 document.referrer 来获取网页跳转源，但在react 的 react-router 中好像不适用，因为亲测获取不到。
