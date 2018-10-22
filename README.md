@@ -1,5 +1,5 @@
 ### python 的修饰器
-[https://www.cnblogs.com/Jerry-Chou/archive/2012/05/23/python-decorator-explain.html](学习链接)
+[学习链接](https://www.cnblogs.com/Jerry-Chou/archive/2012/05/23/python-decorator-explain.html)
 ### 关于数据库表的定义
 1.数据表和逻辑没关系，在定义的时候，首先确定主键，保证可以满足大多数情况，将所有可能出错的地方都需要考虑，例如以下这个案例：
  租赁订单表和买卖订单表都需要关联采购订单，这个采购订单首先需要一个自身的递增主键ID之后，还需要存储订单的ID来区分是哪个订单下的采购订单，这个时候就会出现的一个差错就是，存储的order_id有可能相同，所以这个数据需要一个辅助的add_type字段来区分出订单的来源，保证数据的唯一性。
