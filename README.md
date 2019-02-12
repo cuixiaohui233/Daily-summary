@@ -1,3 +1,8 @@
+### github 拉去本地不存在的远程分支到本地
+
+1.git fetch
+2.git checkout -b 本地新分支名 origin/远程要拉取的分支名
+
 ### python 的修饰器
 [学习链接](https://www.cnblogs.com/Jerry-Chou/archive/2012/05/23/python-decorator-explain.html)
 ### 关于数据库表的定义
