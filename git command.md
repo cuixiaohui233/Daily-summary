@@ -1,3 +1,8 @@
+### github 拉去本地不存在的远程分支到本地
+
+1.git fetch
+2.git checkout -b 本地新分支名 origin/远程要拉取的分支名
+
 ### 添加 git command 快捷方式
 git config --global alias.s status -> git s 就代表 git status 命令
 
