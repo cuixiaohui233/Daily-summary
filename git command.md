@@ -1,4 +1,8 @@
-### 查看连个分支的提交差异
+### 查看两个分支的具体文件差异
+
+git diff master dev 查看master没有的但是dev有的
+
+### 查看两个分支的提交差异
 
 1.git log master ^dev 查看master有的但是dev没有的
 
