@@ -1,3 +1,7 @@
+### 查看连个分支的提交差异
+
+1.git log master ^dev 查看master有的但是dev没有的
+
 ### github 拉去本地不存在的远程分支到本地
 
 1.git fetch
